@@ -5,8 +5,8 @@
 #include <vector>
 #include <ctime>
 
-#include "Air.h"
-#include "Particle.h"
+#include "./lib/Air.h"
+#include "./lib/Particle.h"
 
 #include <SFML/Graphics.hpp>
 
