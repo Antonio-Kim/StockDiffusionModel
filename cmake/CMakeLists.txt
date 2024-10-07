@@ -22,7 +22,7 @@ FetchContent_MakeAvailable(SFML)
 
 
 # Add source to this project's executable.
-add_executable (StockDiffusionModel "../StockDiffusionModel.cpp" "../StockDiffusionModel.h" "../lib/Air.h" "../lib/Particle.h")
+add_executable (StockDiffusionModel "../StockDiffusionModel.cpp" "../lib/PriceSimulation.h" "../lib/PriceSimulation.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET StockDiffusionModel PROPERTY CXX_STANDARD 20)
